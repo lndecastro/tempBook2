@@ -41,17 +41,13 @@ Each module builds on the previous one — guiding you from “What is AI?” to
 | **7** | *Foundational Models and Tools* | Surveying today’s key AI frameworks, platforms, and copilots. |
 | **8** | *Sample Use Cases* | Examining practical applications across domains — education, business, and community. |
 
----
-
-## 🧠 How to Use This Book
+## How to Use This Book
 
 - Navigate the modules using the left-hand sidebar or the **Next/Previous** buttons at the bottom of each page.  
 - Download pages as `.md` or `.pdf` for your notes.  
 - Look for **💡 Examples**, **⚙️ Try It**, and **📘 Further Reading** sections to deepen your understanding.  
-- Many pages include **interactive code cells** you can launch in **Colab** or **Binder**.  
-- Use this book alongside live workshops, videos, and AI tool demonstrations offered by the **Dendritic Institute**.  
-
----
+- Many pages include **interactive code cells** you can launch in most LLM models, such as ChatGPT, Claude, Gemini, Co-Pilot, etc.  
+- Use this book alongside the Canvas course, masterclasses, videos, and AI tool demonstrations offered by the **FGCU AI Academy**.  
 
 ## 🤝 Human-Centered AI
 
@@ -59,16 +55,23 @@ This program embraces a **human-centered approach** to AI:
 AI is not replacing people — it is amplifying our capacity to think, create, and solve.  
 As you advance through these modules, keep reflecting on:
 
-> How can AI become a partner in human learning, creativity, and problem-solving?
+> How can AI become a partner in human learning, creativity, critical-thinking, and problem-solving?
 
----
+## About Your Instructor – Dr. Leandro Nunes de Castro
+
+- Professor in the **Department of Computing and Software Engineering**, U.A. Whitaker College of Engineering, FGCU.  
+- Ph.D. in Computer Engineering with 30 years of experience in **Artificial Intelligence, Data Science, and Natural Computing**.  
+- Director of the **Dendritic Institute for Artificial Intelligence and Data Science** at FGCU.  
+- Author of various AI and Data Science books and papers, and recognized among the **Top 2% most influential researchers in Computer Science worldwide**.  
+- Experienced entrepreneur, researcher, and educator with a focus on applying AI for innovation, business, and societal impact.  
+- Active mentor and collaborator with international academic and industry partners. 
 
 ## 🧾 Acknowledgements
 
 Developed by **Dr. Leandro Nunes de Castro** and the **Dendritic Institute for Human-Centered AI & Data Science**,  
 within the **U.A. Whitaker College of Engineering at Florida Gulf Coast University**.
 
-Content curated and authored by the team, with support from large language models such as ChatGPT, Claude, Gemini, Perplexity, and CoPilot, following ethical and pedagogical review.
+Content curated and authored by the team, with support from large language models such as ChatGPT, Claude, Gemini, Perplexity, Gamma.ai, Napkin, and CoPilot, following ethical and pedagogical review.
 
 <!-- Optional: insert institutional logos or video welcome message here -->
 
