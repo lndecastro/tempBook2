@@ -25,17 +25,13 @@ Machine Learning can be categorized into four main paradigms: supervised, unsupe
   - Predicting house prices (regression)  
   - Classifying emails as spam or not spam (classification)
 
-:::{tip}
-Supervised learning mirrors **learning by example** — the machine imitates patterns it has seen before.
-:::
+> Supervised learning mirrors **learning by example** — the machine imitates patterns it has seen before.
 
 **Popular algorithms:** Linear Regression, Decision Trees, Random Forests, Support Vector Machines, Neural Networks.
 
----
+### 2. Unsupervised Learning
 
-### 🧩 2. Unsupervised Learning
-
-- Works with **unlabeled data** — the algorithm must find structure or patterns on its own.  
+- Works with **unlabeled data** — the algorithm must find structure or patterns on its own (statistical regularities in the data).  
 - Objective: **discover hidden relationships** or **group similar data points**.  
 - Examples:
   - Customer segmentation  
@@ -46,9 +42,7 @@ Supervised learning mirrors **learning by example** — the machine imitates pat
 
 > Unsupervised learning is about exploration — letting the data reveal its own organization.
 
----
-
-### ⚖️ 3. Semi-Supervised Learning
+### 3. Semi-Supervised Learning
 
 - Combines small amounts of **labeled data** with large amounts of **unlabeled data**.  
 - Bridges the gap between supervised and unsupervised approaches.  
@@ -57,18 +51,14 @@ Supervised learning mirrors **learning by example** — the machine imitates pat
 
 **Key methods:** Self-training, Co-training, Graph-based learning.
 
-:::{note}
-Semi-supervised learning reflects a realistic compromise — **humans label some data**, AI learns the rest.
-:::
+> Semi-supervised learning reflects a realistic compromise — **humans label some data**, AI learns the rest.
 
----
-
-### 🕹️ 4. Reinforcement Learning (RL)
+### 4. Reinforcement Learning (RL)
 
 - Inspired by behavioral psychology — learning through **trial and error** and **feedback** from the environment.  
 - An **agent** interacts with an environment, performing actions and receiving **rewards** or **penalties**.  
 - Goal: learn a **policy** that maximizes long-term rewards.  
-- Applications: game playing (AlphaGo), robotics, autonomous driving, resource management.
+- Sample applications: game playing (AlphaGo), robotics, autonomous driving, resource management.
 
 **Core components:**
 - Agent → Learner/decision-maker  
@@ -79,83 +69,88 @@ Semi-supervised learning reflects a realistic compromise — **humans label some
 
 > Reinforcement learning mirrors how humans and animals learn: by doing, failing, and improving.
 
----
+## Part II — Learning Strategies
 
-## ⚙️ Part II — Learning Strategies
+While *learning paradigms* define **what kind of information** the machine receives, *learning strategies* define **how** the model adapts, shares, evolves, and integrates knowledge.
 
-While learning paradigms describe *what* information is available, **learning strategies** describe *how* machines use that information to generalize and improve.
+Modern AI systems increasingly rely on **distributed**, **hybrid**, and **multimodal** approaches — extending machine learning beyond isolated datasets or single-task learning.
 
-### 🧩 1. Instance-Based Learning
+### 1. Transfer Learning
 
-- The model **memorizes examples** and makes predictions by comparing new data to known instances.  
-- Emphasizes **similarity** — “if it looks like this one, it probably belongs to the same class.”  
-- Examples: K-Nearest Neighbors (KNN), Case-Based Reasoning (CBR).  
-- Strengths: simple, interpretable.  
-- Limitations: computationally heavy for large datasets, no abstract model.
+- **Transfer Learning** enables a model trained on one task or dataset to be **reused and fine-tuned** for another.  
+- This mirrors human learning — we transfer prior knowledge to new but related situations.  
+- Example: using a pretrained image model (e.g., **ResNet**) to identify medical X-rays or an LLM fine-tuned on legal documents.
 
-:::{tip}
-Instance-based learners *remember*; model-based learners *summarize*.
-:::
+Transfer learning reduces data requirements and training costs, accelerating model development in specialized domains.
 
----
+**Common applications:**
+- Computer vision (ImageNet-based models)  
+- Natural language processing (GPT, BERT, T5 fine-tuning)  
+- Domain adaptation (general → specific context)
 
-### 🧮 2. Model-Based Learning
+### 2. Federated Learning
 
-- The algorithm **builds a model** that generalizes from the data — it does not memorize all examples.  
-- Examples: regression equations, decision trees, neural networks.  
-- The goal is to capture the **underlying relationship** between inputs and outputs, not the data itself.  
-- Emphasizes **generalization** — performing well on unseen data.
+- **Federated Learning** allows multiple devices or organizations to **train a shared model collaboratively** without centralizing their data.  
+- Each participant trains the model locally, and only **model updates (weights)** are sent to a central aggregator.  
+- The data stays **private and decentralized**, supporting privacy and security.
 
----
+**Advantages:**
+- Protects sensitive data (e.g., healthcare, finance, mobile devices)  
+- Reduces communication costs and respects data ownership  
+- Enables global learning while keeping local autonomy
 
-### 🧱 3. Ensemble Learning
+> Federated learning embodies the principle: *“Learn together, without sharing your secrets.”*
 
-- Combines multiple models to achieve **better accuracy and robustness** than any individual model.  
-- Based on the idea that **diversity among models** reduces overall error.  
-- Main types:
-  - **Bagging (Bootstrap Aggregation)** – builds models on random subsets of data (e.g., Random Forests).  
-  - **Boosting** – sequentially improves weak learners by focusing on errors (e.g., AdaBoost, XGBoost).  
-  - **Stacking** – combines different models through a meta-model that learns their best combination.
+### 3. Evolutionary Learning
 
-> Ensemble learning reflects the wisdom of crowds — many weak opinions can make a strong one.
+- Inspired by **biological evolution**, this strategy uses mechanisms like **reproduction**, **selection**, **mutation**, and **crossover** to optimize models or parameters over generations.  
+- Examples: **Genetic Algorithms (GA)**, **Evolutionary Strategies**, and **Differential Evolution (DE)**.  
+- Can evolve:
+  - Neural architectures (Neuroevolution)  
+  - Hyperparameters (automated tuning)  
+  - Feature sets and rule bases
 
----
+Evolutionary learning explores populations of solutions, not just single models, enabling creative, adaptive problem-solving.
 
-### 🧠 4. Deep Learning (DL)
+### 4. Hybrid Learning
 
-- A subfield of machine learning that uses **multi-layer neural networks** to model complex, high-dimensional data.  
-- Learns hierarchical representations — low-level features (edges, tones) combine into high-level concepts (faces, words).  
-- Deep architectures include:
-  - **Convolutional Neural Networks (CNNs)** for vision  
-  - **Recurrent Neural Networks (RNNs)** and **Transformers** for sequences  
-- Deep Learning fuels today’s generative AI systems, speech recognition, and autonomous systems.
+- **Hybrid Learning** combines multiple AI paradigms (symbolic, connectionist, evolutionary, fuzzy) to leverage their strengths.  
+- Examples:
+  - **Neuro-Fuzzy Systems** — neural networks learning fuzzy rules automatically.  
+  - **Fuzzy-Evolutionary Systems** — evolutionary algorithms optimizing fuzzy controllers.  
+  - **Neuro-Symbolic Systems** — integrating logical reasoning with deep neural networks for explainability.  
+- Hybrids enhance both **interpretability** and **adaptability**.
 
-:::{note}
-Deep Learning blurs the line between representation and learning — the model *learns its own features* directly from raw data.
-:::
+> Hybrid systems explores the strengths of different methods to generate more powerful solutions.
 
----
+### 5. Multimodal Learning
 
-### 🔄 5. Transfer and Incremental Learning
+- **Multimodal Learning** integrates **multiple types of data**, such as text, images, audio, video and sensors, into a single learning framework.  
+- Humans naturally process multimodal information; AI systems are evolving in the same direction.  
+- Examples:
+  - **Vision-Language Models (VLMs)** such as CLIP, Gemini, and GPT-4o that combine text and image understanding.  
+  - **Speech-to-Text-to-Image** pipelines that connect different sensory modalities.
 
-- **Transfer Learning** — reuses knowledge from a model trained on one task to accelerate learning on another.  
-  - Example: adapting a pretrained vision model (e.g., ResNet) to medical imaging.  
-- **Incremental Learning** — allows models to **learn continuously** without retraining from scratch as new data arrives.  
-  - Crucial for dynamic environments (e.g., recommendation systems, IoT devices).
+> Multimodal AI reflects a shift from *single-sense* to *multi-sense* intelligence — toward perception that is more human-like.
 
----
+**Benefits:**
+- Richer representations of the world  
+- Cross-domain understanding and reasoning  
+- More natural and flexible human-AI interaction
 
-### 🧬 6. Evolutionary and Hybrid Learning
+## The New Frontier of Learning
 
-- Inspired by **biological evolution** and **hybrid intelligence**, these strategies use mechanisms like selection, mutation, and crossover to optimize models.  
-- **Genetic Algorithms (GA)**, **Particle Swarm Optimization (PSO)**, and **Neuro-Evolution** evolve neural networks or hyperparameters over time.  
-- Hybrid learning often combines **symbolic reasoning** and **neural learning** (e.g., neuro-symbolic AI) to enhance interpretability and adaptability.
+The modern AI learning landscape is **distributed, adaptive, and collaborative**:
 
-> Evolutionary learning demonstrates that even machines can *evolve* solutions rather than being programmed with them.
+| Strategy | Core Idea | Key Benefit | Example Application |
+|:--|:--|:--|:--|
+| **Transfer Learning** | Reuse knowledge from one domain to another | Reduces data/training cost | Fine-tuned LLMs, medical imaging |
+| **Federated Learning** | Collaborative model training without data sharing | Preserves privacy, enables collaboration | Edge AI, mobile devices, hospitals |
+| **Evolutionary Learning** | Evolve models through selection and mutation | Global optimization, creativity | Neuroevolution, parameter tuning |
+| **Hybrid Learning** | Combine multiple paradigms into one system | Interpretability + flexibility | Neuro-fuzzy control, neuro-symbolic AI |
+| **Multimodal Learning** | Integrate multiple data types (text, image, sound) | Human-like perception | Vision-language models, AI assistants |
 
----
-
-## 🌐 From Data to Knowledge
+## From Data to Knowledge
 
 The learning process in AI can be visualized as a **cycle of intelligence**:
 
@@ -166,26 +161,19 @@ The learning process in AI can be visualized as a **cycle of intelligence**:
 5. **Deployment** → integrating models into applications  
 6. **Feedback Loop** → monitoring, retraining, and improving
 
-:::{figure-md}
-<img src="../../assets/images/learning_cycle.png" alt="Learning Cycle Diagram" width="700px">
-**Figure:** The AI Learning Cycle — a continuous feedback process that refines knowledge and performance.
-:::
+## Reflection
 
----
+> How do these new learning strategies reflect the way humans learn — sharing knowledge, collaborating, and combining senses?  
+> Which of these strategies do you think will dominate the next decade of AI development?
 
-## 🧭 Reflection
-
-> How does a machine’s way of learning differ from a human’s?  
-> Which learning paradigm do you think best represents human intelligence?
-
-Reflect on how **data, feedback, and iteration** turn algorithms into adaptive systems — and how human insight remains essential to guide, interpret, and refine machine learning outcomes.
+Reflect on how **collaboration**, **hybridization**, and **context-awareness** are shaping the next generation of intelligent systems.
 
 ---
 
 ## 📘 Further Reading
 
-- Mitchell, T. M. (1997). *Machine Learning.*  
-- Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning.*  
-- Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction.*  
-- Russell, S., & Norvig, P. (2021). *Artificial Intelligence: A Modern Approach.*  
+- Mitchell, T. M. (1997). *Machine Learning.*, McGraw-Hill.
+- Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning.*, The MIT Press. 
+- Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction.*, 2nd Ed., The MIT Press. 
+- Russell, S., & Norvig, P. (2020). *Artificial Intelligence: A Modern Approach.*, 4th Ed., Pearson. 
 - Dendritic Institute (2025). *AI Literacy Series – Module 3: How Machines Learn.* (Slides & video lecture)
