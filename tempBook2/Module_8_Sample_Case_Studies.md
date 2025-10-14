@@ -1,130 +1,197 @@
 # Module 8 — Sample Case Studies and Applications of AI
 
-Artificial Intelligence is transforming every sector of society — from education and healthcare to environmental management, business, and the arts.  
-This module presents **real-world case studies** that illustrate how AI tools and techniques can be applied to solve problems, enhance creativity, and support decision-making.  
-Each case study emphasizes the **human-centered**, **ethical**, and **context-aware** use of AI introduced throughout this program.
+Artificial Intelligence is transforming every sector of society — from education and healthcare to environmental management, business, and the arts.
+This module provides **hands-on, ready-to-run case studies** where you can explore data, run code, and design prompts to experience AI-assisted analysis and creation in action.
 
-## Learning Objectives
+> All datasets are **synthetic/anonymized** and for **educational use** only.
 
-After completing this module, you will be able to:
-- Identify real-world examples of AI use across diverse domains such as education, healthcare, environment, business, and the arts.  
-- Describe how foundational models, prompt engineering, and context design are applied in practical settings.  
-- Analyze the benefits and limitations of AI in human-centered applications.  
-- Evaluate ethical, social, and environmental implications of AI deployment.  
-- Reflect on responsible and creative ways to integrate AI tools into your own field or profession.  
+[⬇️ Download all case-study data (ZIP)](ai_literacy_case_studies.zip)
 
-## Part I — AI in Education and Learning
+---
 
-### 1.1 Overview
-AI is redefining teaching and learning through personalization, automation, and access to intelligent tutoring.  
-In educational settings, the goal is not to replace teachers but to **augment human instruction** and **support student engagement**.
+## 🎯 Learning Objectives
 
-### 1.2 Case Study: Personalized Learning Assistant
-**Context:**  
-A university deployed a GPT-based assistant that answers student questions about course content and provides writing feedback.  
-**Approach:**  
-- Uses **custom GPTs** with syllabus documents and grading rubrics.  
-- Employs **context engineering** to align tone and expertise with academic standards.  
-- Integrated within the Learning Management System (LMS).  
-**Impact:**  
-- Students receive 24/7 academic support.  
-- Instructors can focus on deeper mentoring.  
-- Enhanced writing quality and self-directed learning.
+:::{admonition} After completing this module, you will be able to:
+- Apply AI tools and prompt engineering techniques to real-world case studies.
+- Run data analyses using the provided datasets for education, healthcare, environment, business, and arts.
+- Evaluate how prompt design and context affect AI performance.
+- Reflect on ethical, social, and environmental implications of AI applications.
+:::
 
-### 1.3 Key Insight
-When properly guided, AI can **extend access** to learning while preserving the **human connection** essential for education.
+---
 
-## 🩺 Part II — AI in Healthcare and Well-Being
+## 🧑‍🏫 Case Study 1 — Education: Course Companion & Lesson Plan Review
 
-### 2.1 Overview
-AI assists clinicians and researchers by extracting insights from data, improving diagnostics, and personalizing treatment — but must operate under strict ethical and privacy standards.
+**Files (in the ZIP):**
+- education/syllabus.txt
+- education/rubric.txt
+- education/lesson_plan.md
 
-### 2.2 Case Study: Medical Record Summarization
-**Context:**  
-A hospital implemented an AI system to summarize anonymized patient records for internal reporting.  
-**Approach:**  
-- Used **LLMs fine-tuned on medical terminology** with de-identified data.  
-- Prompts specified role (“clinical data analyst”) and output structure (“key findings, risks, recommendations”).  
-- All outputs reviewed by human specialists.  
-**Impact:**  
-- Reduced documentation time.  
-- Improved report clarity for multidisciplinary teams.  
-- Maintained compliance with patient data protection standards.
+### A) Prompt
+```
+System role: You are an instructional designer for higher education.
 
-### 2.3 Key Insight
-AI’s role in healthcare is **assistive, not autonomous** — enhancing human expertise through speed, structure, and synthesis.
+Context files you can reference:
+- Syllabus (excerpt): [paste the text from syllabus.txt]
+- Writing Rubric (excerpt): [paste the text from rubric.txt]
 
-## 🌿 Part III — AI in Environmental Science and Sustainability
+Task:
+1) Review the lesson_plan.md (pasted below) against the syllabus goals and the rubric criteria.
+2) Summarize the lesson plan in 3 bullet points for students.
+3) Produce a table with columns: Strengths | Weaknesses | Improvement Suggestions.
+4) Write a 60-word student-facing overview.
 
-### 3.1 Overview
-AI technologies are supporting **climate monitoring**, **biodiversity analysis**, and **sustainable resource management** by making sense of large-scale, complex data.
+Lesson Plan:
+[Paste the contents of lesson_plan.md]
+```
 
-### 3.2 Case Study: Water Quality Monitoring
-**Context:**  
-A regional environmental agency used AI models to analyze sensor and satellite data on water quality across multiple sites.  
-**Approach:**  
-- Combined **data science pipelines** with **machine learning prediction models** for early warning of algal blooms.  
-- Used **custom GPTs** for natural-language report generation from sensor data.  
-- Engaged local universities to validate and interpret results.  
-**Impact:**  
-- Faster detection of anomalies.  
-- Improved cross-agency communication.  
-- Greater public transparency through automated reports.
+### B) Mini Analysis (Python)
+```python
+import pandas as pd, pathlib
+base = pathlib.Path("ai_literacy_case_studies/education")
+print(open(base/"syllabus.txt").read())
+print(open(base/"rubric.txt").read())
+print(open(base/"lesson_plan.md").read())
+```
 
-### 3.3 Key Insight
-When combined with domain expertise, AI becomes a **decision-support tool for environmental resilience** and policy action.
+---
 
-## 💼 Part IV — AI in Business and Industry
+## 🩺 Case Study 2 — Healthcare: Clinical Summary (Educational Only)
 
-### 4.1 Overview
-From supply chain optimization to marketing analytics, AI helps organizations **analyze, predict, and innovate** at scale.
+**Files:**
+- healthcare/patient_records.csv
+- healthcare/guideline.txt
 
-### 4.2 Case Study: Customer Insights through Generative Analysis
-**Context:**  
-A retail company used GenAI to summarize customer feedback and detect emerging market trends.  
-**Approach:**  
-- Integrated **LLMs** with company databases and dashboards.  
-- Used **prompt engineering** to cluster and summarize feedback by product line.  
-- Employed **ChatGPT Projects** to manage iterative reports and automate visualization scripts.  
-**Impact:**  
-- Generated actionable insights in minutes instead of days.  
-- Enhanced product development and customer satisfaction.  
-- Reduced analyst workload through AI-assisted reporting.
+> ⚠️ Educational disclaimer: synthetic data; **not** medical advice; always require **human expert review**.
 
-### 4.3 Key Insight
-AI-driven insights empower professionals to **focus on strategy**, while the machine handles data synthesis and pattern recognition.
+### A) Prompt
+```
+System role: You are a clinical data analyst supporting a hospital quality-improvement team.
+Ethical boundary: Educational exercise only; do not provide medical advice.
 
-## 🎨 Part V — AI in Arts and Creativity
+Reference: Clinical Guideline (simplified): 
+[Paste the text from guideline.txt]
 
-### 5.1 Overview
-Artists, writers, and designers are using AI to **expand creative boundaries**, co-author content, and experiment with new forms of expression.
+Task:
+1) Read the CSV rows pasted below (anonymized patient_records.csv).
+2) For each case, summarize under: Key Findings | Potential Risks | Next Steps (guideline-aligned).
+3) Flag any “red flags” that require escalation per the guideline.
+4) End with a 2-sentence caveat emphasizing human review.
+```
 
-### 5.2 Case Study: AI-Assisted Storytelling
-**Context:**  
-A creative writing group explored how GenAI tools could help generate ideas for interactive fiction.  
-**Approach:**  
-- Used **multimodal models** for world-building and character visualization.  
-- Practiced **prompt iteration** to control tone, pacing, and emotional depth.  
-- Combined AI drafts with human editing for authenticity.  
-**Impact:**  
-- Boosted creative experimentation and collaboration.  
-- Improved productivity in scriptwriting and editing workflows.  
-- Sparked reflection on authorship and originality.
+### B) Mini Analysis (Python)
+```python
+import pandas as pd, pathlib
+base = pathlib.Path("ai_literacy_case_studies/healthcare")
+df = pd.read_csv(base/"patient_records.csv")
+print(df.head(3).to_string(index=False))
+```
 
-### 5.3 Key Insight
-AI can act as a **co-creator** — extending imagination while keeping humans at the center of meaning-making.
+---
 
-## 🧠 Part VI — Common Themes Across Case Studies
+## 🌿 Case Study 3 — Environment: Water Quality Early Warning
 
-| Principle | Description |
-|:--|:--|
-| **Human-Centered Design** | AI works best when guided by clear purpose and ethical framing. |
-| **Transparency** | Users should disclose AI involvement in content creation and decision support. |
-| **Collaboration** | Successful applications combine human expertise with machine scalability. |
-| **Context Engineering** | Proper context ensures relevance, tone, and trustworthiness of outputs. |
-| **Continuous Learning** | AI literacy requires ongoing experimentation, reflection, and adaptation. |
+**Files:**
+- environment/water_quality.csv
 
-> Across sectors, AI’s success depends on the same foundation: **human intention, contextual awareness, and ethical alignment**.
+### A) Prompt
+```
+System role: You are an environmental data analyst.
+Goal: Detect anomalies suggestive of potential algal bloom risk.
+
+Task:
+1) I will paste a dataframe sample from water_quality.csv (site, date, chlorophyll_a, temp_c, nitrate_mgL, phosphate_mgL).
+2) Propose a simple anomaly detection approach using z-scores for chlorophyll_a within each site.
+3) Suggest domain-informed thresholds to flag potential risk for review.
+4) Draft a concise report: Summary | Sites of Interest | Recommended Next Checks.
+```
+
+### B) Mini Analysis (Python)
+```python
+import pandas as pd, numpy as np, pathlib
+base = pathlib.Path("ai_literacy_case_studies/environment")
+df = pd.read_csv(base/"water_quality.csv")
+df['date'] = pd.to_datetime(df['date'])
+df['chl_site_mean'] = df.groupby('site')['chlorophyll_a'].transform('mean')
+df['chl_site_std'] = df.groupby('site')['chlorophyll_a'].transform('std').replace(0, 1e-6)
+df['chl_z'] = (df['chlorophyll_a'] - df['chl_site_mean'])/df['chl_site_std']
+df['chl_flag'] = (df['chl_z'].abs() >= 2.0)
+summary = df.groupby('site')['chl_flag'].sum().rename('anomaly_count')
+print(summary)
+print(df.loc[df['chl_flag'], ['date','site','chlorophyll_a','chl_z']])
+```
+
+---
+
+## 💼 Case Study 4 — Business: Customer Feedback Insights
+
+**Files:**
+- business/customer_feedback.csv
+
+### A) Prompt
+```
+System role: You are a customer insights analyst.
+
+Task:
+1) I will paste a sample of customer_feedback.csv (product, feedback).
+2) Cluster feedback into 3–5 themes with short labels.
+3) Produce a table: Theme | Representative Quote | Suggested Action.
+4) Write a 100-word executive summary.
+```
+
+### B) Mini Analysis (Python)
+```python
+import pandas as pd, pathlib
+base = pathlib.Path("ai_literacy_case_studies/business")
+df = pd.read_csv(base/"customer_feedback.csv")
+print(df.head().to_string(index=False))
+print(df['product'].value_counts())
+```
+
+---
+
+## 🎨 Case Study 5 — Arts: Story Seeds to Short Scene
+
+**Files:**
+- arts/story_seeds.csv
+
+### A) Prompt
+```
+System role: You are a creative writing coach.
+
+Task:
+1) Here are story seeds (character, trait, goal) from a CSV.
+2) Pick one seed and outline a scene (setting, conflict, turning point, resolution beat) in ~120 words.
+3) Keep tone grounded and sensory-rich.
+4) End with two “next-scene” options.
+```
+
+### B) Mini Analysis (Python)
+```python
+import pandas as pd, pathlib
+base = pathlib.Path("ai_literacy_case_studies/arts")
+seeds = pd.read_csv(base/"story_seeds.csv")
+print(seeds.to_string(index=False))
+```
+
+---
+
+## ✅ Submission & Reflection
+
+- Include your **prompt(s)**, **AI outputs**, and **Python outputs**.
+- Reflect (150–200 words): How did prompt and context choices shape your results?
+- Note limitations, assumptions, or ethical considerations.
+
+---
+
+## 📘 Further Reading
+
+- World Economic Forum (2024). *AI Governance and the Future of Work.*
+- UNESCO (2023). *Guidelines for AI in Education and Research.*
+- Nature Editorial (2023). *Artificial Intelligence in Science: Opportunities and Pitfalls.*
+- Mollick, E. & Mollick, L. R. (2024). *Co-Intelligence: Living and Working with AI.*
+- European Commission (2024). *Ethics Guidelines for Trustworthy AI.*
+- Dendritic Institute (2025). *AI Literacy Series – Module 8: Hands-on Case Studies.*
 
 ## Reflection
 
