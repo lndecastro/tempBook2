@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: intro.md
 chapters:
-  - file: test.md
-    title: "Test File"
+  - file: Module_1_AI_History.md
+    title: "Module 1: A Brief History of AI"
