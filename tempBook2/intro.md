@@ -51,7 +51,7 @@ Each module builds on the previous one — guiding you from “What is AI?” to
 - Many pages include **interactive code cells** you can launch in most LLM models, such as ChatGPT, Claude, Gemini, Co-Pilot, etc.  
 - Use this book alongside the Canvas course, masterclasses, videos, and AI tool demonstrations offered by the **FGCU AI Academy**.  
 
-## 🤝 Human-Centered AI
+## Human-Centered AI
 
 This program embraces a **human-centered approach** to AI:  
 AI is not replacing people — it is amplifying our capacity to think, create, and solve.  
