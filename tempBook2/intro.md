@@ -41,6 +41,8 @@ Each module builds on the previous one — guiding you from “What is AI?” to
 | **7** | *Foundational Models and Tools* | Surveying today’s key AI frameworks, platforms, and copilots. |
 | **8** | *Sample Use Cases* | Examining practical applications across domains — education, business, and community. |
 
+![Our Journey](Data/AILiteracyJorney.png)
+
 ## How to Use This Book
 
 - Navigate the modules using the left-hand sidebar or the **Next/Previous** buttons at the bottom of each page.  
