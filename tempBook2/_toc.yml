@@ -9,8 +9,10 @@ chapters:
   - file: Module_2_AI_and_Its_Branches.md
     title: "Module 2: AI and Its Many Branches"
   - file: Module_3_How_Machines_Learn.md
-    title: "Module 2: How Machines Learn"
+    title: "Module 3: How Machines Learn"
   - file: Module_4_GenAI_LLMs.md
-    title: "Module 2: Generative AI (GenAI) and Large Language Models (LLMs)"
+    title: "Module 4: Generative AI (GenAI) and Large Language Models (LLMs)"
   - file: Module_5_Prompt_Engineering.md
-    title: "Module 2: Fundamentals of Prompt Engineering"
+    title: "Module 5: Fundamentals of Prompt Engineering"
+  - file: Module_6_Context_Engineering.md
+    title: "Module 6: Context Engineering"
