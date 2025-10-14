@@ -6,3 +6,5 @@ root: intro.md
 chapters:
   - file: Module_1_AI_History.md
     title: "Module 1: A Brief History of AI"
+  - file: Module_2_AI_and_Its_Branches.md
+    title: "Module 2: AI and Its Many Branches"
