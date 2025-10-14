@@ -33,13 +33,13 @@ Each module builds on the previous one — guiding you from “What is AI?” to
 | Module | Theme | Focus |
 |:--:|:--|:--|
 | **1** | *A Brief History of AI* | From the dawn of computing to the present, tracing AI’s evolution across decades. |
-| **2** | *What is AI and Its Many Branches* | Exploring the diverse approaches — machine learning, neural networks, natural computing, data science. |
+| **2** | *What is AI and Its Many Branches* | Exploring the diverse approaches — machine learning, neural networks, natural computing, data science, etc. |
 | **3** | *How Machines Learn* | Understanding learning paradigms and strategies that power intelligent systems. |
-| **4** | *Generative AI & Large Language Models* | Unpacking how GenAI systems create new content and simulate reasoning. |
+| **4** | *Generative AI & Large Language Models* | Unpacking how GenAI systems and LLMs create new content and simulate reasoning. |
 | **5** | *Fundamentals of Prompt Engineering* | Learning to communicate effectively with AI through structured prompting. |
 | **6** | *Context Engineering* | Setting the right stage for AI: audience, purpose, tone, and ethical framing. |
-| **7** | *Foundational Models and Tools* | Surveying today’s key AI frameworks, platforms, and copilots. |
-| **8** | *Sample Use Cases* | Examining practical applications across domains — education, business, and community. |
+| **7** | *Foundational Models and Tools* | Surveying some key AI frameworks, platforms, and copilots. |
+| **8** | *Sample Use Cases* | Examining practical applications across domains. |
 
 ![Our Journey](Data/AILiteracyJorney.png)
 
