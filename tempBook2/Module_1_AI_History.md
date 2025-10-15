@@ -16,19 +16,19 @@ After completing this module, you will be able to:
 Artificial Intelligence was born at the intersection of **philosophy, mathematics, and computer science**.  
 The first decades were marked by ambitious ideas and groundbreaking experiments.
 
-### The Birth of the Idea
+### 1.1 The Birth of the Idea
 
 - **Alan Turing (1950)** proposed the question *“Can machines think?”* in his paper *Computing Machinery and Intelligence*, introducing the **Turing Test** as a benchmark for machine intelligence.  
 - The term **“Artificial Intelligence”** was formalized by **John McCarthy** in 1956 during the **Dartmouth Conference**, the symbolic birth of the field.  
 - Early pioneers such as **Marvin Minsky**, **Allen Newell**, and **Herbert Simon** believed intelligence could be expressed as **symbolic reasoning** — logic, rules, and search.
 
-### Early Approaches and Expectations
+### 1.2 Early Approaches and Expectations
 
 - **Logic-based systems** and **expert systems** dominated the early decades.  
 - The **Perceptron (1958)** by **Frank Rosenblatt** introduced the concept of a learning machine inspired by the brain.  
 - The 1960s and 1970s saw growing optimism — AI programs could solve puzzles, play games, and prove theorems.
 
-### The AI Winters
+### 1.3 The AI Winters
 
 Periods of **AI Winter** occurred when expectations outpaced results, and funding or public interest declined.
 
@@ -41,7 +41,7 @@ Yet, during these winters, important foundations such as **backpropagation**, **
 
 At the turn of the century, AI entered a new era — one driven by **data**, **computation**, and **connectivity**.
 
-### The Rise of Machine Learning
+### 2.1 The Rise of Machine Learning
 
 - **Machine Learning (ML)** shifted focus from programming explicit rules to **learning from data**.  
 - Key advances in the 2000s:
@@ -50,14 +50,14 @@ At the turn of the century, AI entered a new era — one driven by **data**, **c
   - Emergence of open-source frameworks such as **TensorFlow** and **PyTorch**.  
 - ML became the engine behind **recommendation systems**, **spam filters**, **voice recognition**, **predictive analytics**, and many other developments.
 
-### The Deep Learning Revolution
+### 2.2 The Deep Learning Revolution
 
 - **2012 – ImageNet breakthrough**: deep convolutional networks (AlexNet) drastically improved image recognition accuracy.  
 - Deep Learning models began to outperform humans in specific tasks:  
   - **Speech recognition**, **translation**, **medical imaging**, **Go**, and **protein folding**.  
 - The architecture of **artificial neural networks (ANNs)** took inspiration from the human brain but scaled to billions of parameters.
 
-### The Age of Generative AI
+### 2.3 The Age of Generative AI
 
 - Around **2018–2023**, **transformer architectures** (e.g., *Attention Is All You Need*, 2017) transformed AI once again.  
 - **Large Language Models (LLMs)** such as **GPT**, **Claude**, **Gemini**, and **LLaMA** learned to generate coherent text, images, and code.  
@@ -69,14 +69,14 @@ At the turn of the century, AI entered a new era — one driven by **data**, **c
 
 AI’s future will likely be defined by the balance between **capability**, **responsibility**, and **human-centered design**.
 
-### Emerging Trends
+### 3.1 Emerging Trends
 
 - **Multimodal AI** — integrating text, image, audio, and sensor data in unified models.  
 - **Edge and embedded AI** — intelligent devices operating locally without cloud dependency.  
 - **Responsible and ethical AI** — focusing on transparency, fairness, and societal impact.  
 - **Human-AI collaboration** — AI as a partner for creativity, learning, and decision-making.
 
-### From Automation to Augmentation
+### 3.2 From Automation to Augmentation
 
 The next wave of AI is not about replacing humans, but about **augmenting human capabilities**.
 
