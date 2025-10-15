@@ -16,7 +16,7 @@ After completing this module, you will be able to:
 The way a machine learns depends on the **type of information** available and the **goal** of the learning process.  
 Machine Learning can be categorized into four main paradigms: supervised, unsupervised, semi-supervised, and reinforcement learning.
 
-### 1. Supervised Learning
+### 1.1 Supervised Learning
 
 - The most common and well-understood paradigm.  
 - The model learns from **labeled data** — examples where the desired output (target) is known.  
@@ -29,7 +29,7 @@ Machine Learning can be categorized into four main paradigms: supervised, unsupe
 
 **Popular algorithms:** Linear Regression, Decision Trees, Random Forests, Support Vector Machines, Neural Networks.
 
-### 2. Unsupervised Learning
+### 1.2 Unsupervised Learning
 
 - Works with **unlabeled data** — the algorithm must find structure or patterns on its own (statistical regularities in the data).  
 - Objective: **discover hidden relationships** or **group similar data points**.  
@@ -42,7 +42,7 @@ Machine Learning can be categorized into four main paradigms: supervised, unsupe
 
 > Unsupervised learning is about exploration — letting the data reveal its own organization.
 
-### 3. Semi-Supervised Learning
+### 1.3 Semi-Supervised Learning
 
 - Combines small amounts of **labeled data** with large amounts of **unlabeled data**.  
 - Bridges the gap between supervised and unsupervised approaches.  
@@ -53,7 +53,7 @@ Machine Learning can be categorized into four main paradigms: supervised, unsupe
 
 > Semi-supervised learning reflects a realistic compromise — **humans label some data**, AI learns the rest.
 
-### 4. Reinforcement Learning (RL)
+### 1.4 Reinforcement Learning (RL)
 
 - Inspired by behavioral psychology — learning through **trial and error** and **feedback** from the environment.  
 - An **agent** interacts with an environment, performing actions and receiving **rewards** or **penalties**.  
@@ -69,13 +69,15 @@ Machine Learning can be categorized into four main paradigms: supervised, unsupe
 
 > Reinforcement learning mirrors how humans and animals learn: by doing, failing, and improving.
 
+![Learning Paradigms](Data/LearningParadigms.png)
+
 ## Part II — Learning Strategies
 
 While *learning paradigms* define **what kind of information** the machine receives, *learning strategies* define **how** the model adapts, shares, evolves, and integrates knowledge.
 
 Modern AI systems increasingly rely on **distributed**, **hybrid**, and **multimodal** approaches — extending machine learning beyond isolated datasets or single-task learning.
 
-### 1. Transfer Learning
+### 2.1 Transfer Learning
 
 - **Transfer Learning** enables a model trained on one task or dataset to be **reused and fine-tuned** for another.  
 - This mirrors human learning — we transfer prior knowledge to new but related situations.  
@@ -88,7 +90,7 @@ Transfer learning reduces data requirements and training costs, accelerating mod
 - Natural language processing (GPT, BERT, T5 fine-tuning)  
 - Domain adaptation (general → specific context)
 
-### 2. Federated Learning
+### 2.2 Federated Learning
 
 - **Federated Learning** allows multiple devices or organizations to **train a shared model collaboratively** without centralizing their data.  
 - Each participant trains the model locally, and only **model updates (weights)** are sent to a central aggregator.  
@@ -101,7 +103,7 @@ Transfer learning reduces data requirements and training costs, accelerating mod
 
 > Federated learning embodies the principle: *“Learn together, without sharing your secrets.”*
 
-### 3. Evolutionary Learning
+### 2.3 Evolutionary Learning
 
 - Inspired by **biological evolution**, this strategy uses mechanisms like **reproduction**, **selection**, **mutation**, and **crossover** to optimize models or parameters over generations.  
 - Examples: **Genetic Algorithms (GA)**, **Evolutionary Strategies**, and **Differential Evolution (DE)**.  
@@ -112,7 +114,7 @@ Transfer learning reduces data requirements and training costs, accelerating mod
 
 Evolutionary learning explores populations of solutions, not just single models, enabling creative, adaptive problem-solving.
 
-### 4. Hybrid Learning
+### 2.4 Hybrid Learning
 
 - **Hybrid Learning** combines multiple AI paradigms (symbolic, connectionist, evolutionary, fuzzy) to leverage their strengths.  
 - Examples:
@@ -123,7 +125,7 @@ Evolutionary learning explores populations of solutions, not just single models,
 
 > Hybrid systems explores the strengths of different methods to generate more powerful solutions.
 
-### 5. Multimodal Learning
+### 2.5 Multimodal Learning
 
 - **Multimodal Learning** integrates **multiple types of data**, such as text, images, audio, video and sensors, into a single learning framework.  
 - Humans naturally process multimodal information; AI systems are evolving in the same direction.  
@@ -150,6 +152,10 @@ The modern AI learning landscape is **distributed, adaptive, and collaborative**
 | **Hybrid Learning** | Combine multiple paradigms into one system | Interpretability + flexibility | Neuro-fuzzy control, neuro-symbolic AI |
 | **Multimodal Learning** | Integrate multiple data types (text, image, sound) | Human-like perception | Vision-language models, AI assistants |
 
+![Learning Strategies](Data/LearningStrategies.png)
+
+---
+
 ## From Data to Knowledge
 
 The learning process in AI can be visualized as a **cycle of intelligence**:
@@ -160,6 +166,8 @@ The learning process in AI can be visualized as a **cycle of intelligence**:
 4. **Evaluation** → measuring accuracy, precision, recall, or reward  
 5. **Deployment** → integrating models into applications  
 6. **Feedback Loop** → monitoring, retraining, and improving
+
+![AI Learning Cycle](Data/LearningCycle.png)
 
 ## Reflection
 
