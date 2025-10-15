@@ -1,4 +1,4 @@
-# Welcome to "AI Literacy" — The Future-Ready Journey
+# AI Literacy
 
 Welcome to the **AI Literacy Program**, part of the **FGCU AI Academy** led by the **Dendritic Institute for Human-Centered AI & Data Science** at Florida Gulf Coast University. The **AI Literacy Program** is the *foundational offering* of the **FGCU AI Academy**, designed as a gentle introduction to the world of Artificial Intelligence for learners from all backgrounds. As the first in a series of Academy programs, it helps students, professionals, and community members build a common understanding of what AI is, how it works, and how it is transforming everyday life. Through accessible examples and human-centered discussion, participants learn to navigate the opportunities and challenges of AI with curiosity, confidence, and critical thinking — setting the stage for deeper technical and applied studies in subsequent Academy pathways. This Jupyter Book is designed to be your **interactive guide** through the world of Artificial Intelligence — from its origins and foundations to the basics of Generative AI (GenAI) and Large Language Models (LLMs).
 
