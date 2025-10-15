@@ -37,6 +37,8 @@ Periods of **AI Winter** occurred when expectations outpaced results, and fundin
 
 Yet, during these winters, important foundations such as **backpropagation**, **genetic algorithms**, and **fuzzy logic** matured quietly, preparing the ground for future breakthroughs.
 
+![The Foundation Years](Data/1950_2000.png)
+
 ## Part II — Modern AI Development (2000 – 2025)
 
 At the turn of the century, AI entered a new era — one driven by **data**, **computation**, and **connectivity**.
@@ -64,6 +66,8 @@ At the turn of the century, AI entered a new era — one driven by **data**, **c
 - AI moved from **classification and prediction** to **creation and synthesis**, giving birth to the **Generative AI era**.
 
 > We are witnessing AI’s shift from tools that *analyze* to tools that *create*.
+
+![Modern Developments](Data/2006_2025.png)
 
 ## Part III — The Future Horizon
 
