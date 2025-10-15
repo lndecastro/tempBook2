@@ -28,6 +28,8 @@ A good prompt typically includes:
 4. **Output Format** (optional): Desired structure or style.
    - _e.g., "Respond in JSON format with sentiment and category."_
 
+![Prompt Anatomy](Data/PromptAnatomy.png)
+
 ## 5.4 Why Prompt Engineering Matters
 
 - It **boosts model performance** without changing the model itself.
@@ -88,6 +90,8 @@ English: I’m hungry → Portuguese:
 ```
 > Note: a prompt can be of more than one type simultaneously, e.g. Prompt 1 above is also a zero-shot prompt.
 
+![Prompt Types](Data/PromptTypes.png)
+
 ## 5.8 Prompt Comparison
 
 | Pattern           | Use Case                               | Example Role/Task                              |
@@ -127,6 +131,8 @@ Iteration helps you:
 
 4. **Test again**  
    _Compare outputs, note improvements, and repeat if needed._
+
+![Iterative Prompting](Data/IterativePrompt.png)
 
 ## Exercise 3: Prompt Iteration and Debugging Examples
 
