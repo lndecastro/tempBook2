@@ -15,13 +15,13 @@ After completing this module, you will be able to:
 
 AI began as a **broad field** seeking to replicate human reasoning, but gradually branched into **data-driven subfields** that learn from examples instead of rules and **automation approaches** that allow machines to make decisions in complex environments, from the automation of tasks to autonomous navigation systems.
 
-### Artificial Intelligence (AI)
+### 1.1 Artificial Intelligence (AI)
 
 - The science and engineering of building systems that can perform tasks requiring human intelligence — such as reasoning, learning, perception, and decision-making.  
 - Encompasses both **symbolic AI** (rule-based logic) and **sub-symbolic AI** (learning from data).  
 - AI is the **umbrella term** under which all other branches fit (sometimes only partially).
 
-### Machine Learning (ML)
+### 1.2 Machine Learning (ML)
 
 - A subset of AI focused on **algorithms that learn from data**.  
 - Instead of being explicitly programmed, ML models discover **patterns and relationships** that allow them to make predictions or classifications.  
@@ -29,12 +29,12 @@ AI began as a **broad field** seeking to replicate human reasoning, but graduall
 
 **AI learns from data; traditional programming follows rules.**
 
-### 🧬 Neural Networks (NN)
+### 1.3 Neural Networks (NN)
 
 - Inspired by biological neurons, **artificial neural networks** simulate interconnected nodes that process signals.  
 - Early neural models (Perceptrons) could only learn simple relationships; later architectures (multilayer perceptrons) captured more complex patterns.
 
-### Deep Learning (DL)
+### 1.4 Deep Learning (DL)
 
 - A **subset of ML** using networks with many hidden layers (“deep” architectures).  
 - Enables breakthroughs in **image recognition**, **speech**, and **language generation**.  
@@ -47,7 +47,7 @@ AI began as a **broad field** seeking to replicate human reasoning, but graduall
 While ML focuses on data-driven adaptation, another branch — **Computational Intelligence (CI)** — explores how **nature itself computes**.  
 These paradigms study emergent, adaptive, and self-organizing behaviors.
 
-### Computational Intelligence (CI)
+### 2.1 Computational Intelligence (CI)
 
 - A multidisciplinary field that focuses on developing algorithms and models **inspired by nature and human cognition** to tackle complex problems.  
 - Core approaches:  
@@ -55,7 +55,7 @@ These paradigms study emergent, adaptive, and self-organizing behaviors.
   - **Fuzzy Systems** (handle uncertainty and imprecision by allowing for degrees of truth rather than binary logic)  
   - **Artificial Neural Networks** (mimic the human brain's structure and function to design learning machines)  
 
-### Natural Computing (NC)
+### 2.2 Natural Computing (NC)
 
 - A multidisciplinary field, which combines concepts from biology, computer science, and engineering to develop innovative computational tools and approaches.
 - Core approaches:
@@ -63,7 +63,7 @@ These paradigms study emergent, adaptive, and self-organizing behaviors.
   - **Computational Synthesis of Nature** (focuses on generating natural patterns and behaviors in computers, essentially simulating nature through computational means. This can include artificial life, fractal geometry, and other nature-inspired simulations)
   - **Computing with New Natural Materials** (explores the potential of using novel natural materials for computing, which could lead to the design of new types of computers or computational systems)
 
-### Soft Computing (SC)
+### 2.3 Soft Computing (SC)
 
 - Proposed by **Lotfi A. Zadeh** in the early 1990s, **Soft Computing** was envisioned as a **new computational paradigm** that emulates the human mind’s ability to reason under uncertainty, imprecision, and partial truth.  
 - At its core, Soft Computing integrates **fuzzy logic**, **neural networks**, and **evolutionary computation**, often forming **hybrid systems** that combine their strengths.
@@ -77,7 +77,7 @@ These paradigms study emergent, adaptive, and self-organizing behaviors.
 
 Modern AI depends on the **availability of usually massive data** and **tools to extract knowledge** from it.
 
-### Big Data
+### 3.1 Big Data
 
 - **Big Data** refers not only to massive and complex data sets but also to the **technological ecosystem** required to **store, manage, and process** them efficiently.  
 - It encompasses three tightly connected layers:
@@ -91,13 +91,13 @@ Modern AI depends on the **availability of usually massive data** and **tools to
 
 > In essence, Big Data is not just *about data* — it is about the **data, computation, and knowledge systems** that allow us to turn information into intelligence.
 
-### Data Science (DS)
+### 3.2 Data Science (DS)
 
 - An interdisciplinary field combining **statistics, computer science, and domain knowledge** to extract insights from data.  
 - Involves the full data pipeline: collection → processing → exploratory analysis → modeling.  
 - Data Science operationalizes AI into decision-making processes.
 
-### Knowledge Discovery in Databases (KDD) and Data Mining (DM)
+### 3.3 Knowledge Discovery in Databases (KDD) and Data Mining (DM)
 
 - **KDD** is the overall process of discovering useful information from large data repositories.  
 - **Data Mining** is one of its steps — the application of algorithms to extract patterns or predictive models.  
@@ -105,7 +105,7 @@ Modern AI depends on the **availability of usually massive data** and **tools to
 
 > If Data Science is the process, **Data Mining** is the toolset.
 
-### Natural Language Processing (NLP)
+### 3.4 Natural Language Processing (NLP)
 
 - A branch of AI focused on enabling machines to **understand and generate human language**.  
 - Core tasks: text classification, sentiment analysis, translation, summarization, and dialogue generation.  
