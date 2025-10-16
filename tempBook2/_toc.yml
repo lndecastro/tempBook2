@@ -16,3 +16,7 @@ chapters:
     title: "Module 5: Fundamentals of Prompt Engineering"
   - file: Module_6_Context_Engineering.md
     title: "Module 6: Context Engineering"
+  - file: Module_7_Foundational_Models.md
+    title: "Module 7: Foundational Models and Tools"
+  - file: Module_8_Sample_Case_Studies.md
+    title: "Module 8: Case Studies"
