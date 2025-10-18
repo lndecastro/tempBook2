@@ -245,54 +245,7 @@ Below is a **comparative table** (as of October 2025) of how major platforms imp
 
 By mastering these extensions of the GenAI toolkit, you will learn not just to use AI, but to **engineer AI-powered solutions** — a critical step in building innovative startups.
 
----
-
-## 4. Useful GenAI Tools 
-
-### ChatGPT
-ChatGPT is a versatile AI language model developed by OpenAI, capable of interpreting natural language, performing various statistical analyses, coding in Python, and generating data visualizations such as bar charts, pie charts, scatter plots, and histograms. It supports data uploads in formats like CSV, XLSX, PDF, and JSON (up to 50MB) and can integrate with cloud storage like Google Drive and OneDrive. ChatGPT excels in broad AI capabilities including data analysis, summarization, and storytelling. It requires web browsing for real-time data updates.
-Access ChatGPT here: [https://chat.openai.com/]
-
-### Claude.ai
-Claude.ai is an AI assistant with strong natural language processing capabilities and expanding tools for data analysis. It supports data uploads and can process data using JavaScript within its Analysis Tool. Claude.ai can perform complex calculations, data manipulation, and create visualizations through its Analysis Tool and Artifacts feature. It primarily analyzes uploaded data and does not rely on real-time web browsing.
-Access Claude.ai here: [https://claude.ai/]
-
-### Perplexity
-Perplexity is a research-focused AI platform emphasizing data-driven insights and real-time web search integration. It allows file uploads for analysis and uses coding capabilities within its Deep Research mode to identify patterns, trends, and anomalies. Perplexity integrates web search for broader context and is particularly strong in providing current data and research-backed answers.
-Access Perplexity here: [https://www.perplexity.ai]
-
-### Grok
-Grok is a conversational AI developed by Elon Musk’s xAI, designed to provide witty, insightful, and real-time responses. Integrated with X (formerly Twitter), Grok emphasizes reasoning and humor, offering a more personality-driven interaction style. It supports real-time data access and is positioned as a competitor to ChatGPT and Gemini. Access Grok here: [https://x.ai]
-
-### Meta AI
-Meta AI is Meta’s suite of generative AI tools embedded across Facebook, Instagram, WhatsApp, and Messenger. It offers multimodal capabilities including text, image, and video generation, and supports real-time chat, creative content generation, and productivity tasks. Meta AI is powered by the Llama 4 model and is accessible via Meta’s apps and a standalone assistant. Access Meta AI here: [https://www.meta.ai]
-
-### Copilot
-Copilot is Microsoft’s AI assistant integrated across tools like Word, Excel, PowerPoint, Outlook, and Teams. It leverages large language models to help users draft content, analyze data, summarize meetings, and automate workflows. In Excel, it can generate formulas, create charts, and explain data trends. In Word and PowerPoint, it assists with writing, editing, and designing presentations. Copilot is deeply embedded in Microsoft 365, enhancing productivity through natural language commands. Access Copilot here: [https://copilot.microsoft.com]
-
-### Gemini
-Gemini is Google’s family of multimodal AI models integrated into Google Workspace and available via the Gemini web app. It assists users in drafting, summarizing, brainstorming, analyzing documents, and generating code. Within Docs, Gmail, and Sheets, Gemini enhances productivity by offering smart suggestions, data insights, and content generation. It also supports image understanding and code interpretation through its advanced model versions. Access Gemini here: [https://gemini.google.com]
-
-### NotebookLM
-NotebookLM is a personalized AI research assistant from Google designed to help users work with their own documents. It can summarize large texts, generate FAQs, suggest outlines, timelines, and even podcast scripts. Unlike general-purpose chatbots, NotebookLM focuses on grounded responses based solely on the sources provided by the user, making it ideal for academic, legal, and research-based tasks.
-Access NotebookLM here: [https://notebooklm.google]
-
-### Napkin
-Napkin is a visual storytelling AI tool that transforms plain text into professional diagrams, infographics, and flowcharts. It is ideal for business presentations, educational content, and social media visuals. Users can customize visuals with icons, connectors, and themes, and export them in formats like PNG, PDF, and SVG. Access Napkin here: [https://www.napkin.ai]
-
-### Gamma
-Gamma is an AI-powered content creation platform for building presentations, documents, and websites. It uses natural language prompts to generate scrollable, interactive content with modern design. Gamma is ideal for pitch decks, proposals, and educational materials, and supports real-time collaboration and publishing. Access Gamma here: [https://gamma.app]
-
-### AI Studio
-Google AI Studio is a development platform for building with Gemini, Google’s multimodal AI models. It supports chat, code execution, file analysis, and video generation. Designed for both beginners and developers, AI Studio enables rapid prototyping and integration of AI into applications with a user-friendly interface. Access AI Studio here: [https://aistudio.google.com]
-
-### SciSpace
-SciSpace is an AI research assistant tailored for academic reading, comprehension, and exploration of scientific literature. It allows users to upload PDFs of scholarly articles and interact with them through a chat-based interface that explains complex concepts, defines technical terms, and summarizes content section-by-section. SciSpace is particularly strong in STEM fields and integrates citation tracing, question generation, and concept mapping. It is ideal for literature review, paper comprehension, and academic study.
-Access SciSpace here: [https://scispace.com/]
-
----
-
-## 3. Ethical Considerations and Wrap-Up Reflections
+## 6.7 Ethical Considerations and Wrap-Up Reflections
 
 - Responsible use: data privacy, bias, hallucinations, transparency
 - Examples of misuse and how to avoid them
